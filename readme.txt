@@ -48,7 +48,9 @@ to theme or pages/posts.
 
 11. Slider image have caption can have link
 
-Pro Features(Add On)
+
+**=Pro Features(Add On)=**
+
 
 1. Unlimited Slider(Multiple sliders).
 
