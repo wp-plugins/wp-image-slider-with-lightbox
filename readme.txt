@@ -3,7 +3,7 @@ Contributors:nik00726
 Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
 Tags:wordpress thumbnail slider,wordpress image lightbox,image thumbnail lightbox,wordpress lightbox gallery,wordpress lightbox image,wordpress lightbox scroller,wordpress lightbox slider,wordpress lightbox slideshow
 Requires at least:3.0
-Tested up to:3.7.1
+Tested up to:3.8
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
@@ -48,6 +48,8 @@ to theme or pages/posts.
 
 11. Slider image have caption can have link
 
+12. Responsive Admin layout
+
 
 **=Pro Features(Add On)=**
 
@@ -69,6 +71,8 @@ to theme or pages/posts.
 8. New Field Added Image Order,Now admin can display slider according image order.
 
 9. New Field added open image link in new tab or same tab.The link will be added into lightbox image title
+
+10. Responsive Admin layout
 
 [Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
 

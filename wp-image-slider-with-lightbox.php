@@ -143,8 +143,9 @@
       $settings=get_option('slider_plus_lightbox_settings');
       
 ?>      
-     <div style="width: 100%;">  
-        <div style="float:left;width:69%;">
+     <div id="poststuff" style="width: 100%;">  
+       <div id="post-body" class="metabox-holder columns-2"> 
+        <div id="post-body-content" >
             <div class="wrap">
                <table><tr><td><a href="https://twitter.com/FreeAdsPost" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @FreeAdsPost</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
@@ -155,10 +156,8 @@
                 </td>
                 </tr>
                 </table>
-                <a target="_blank" href="http://www.shareasale.com/r.cfm?b=357716&amp;u=675922&amp;m=29819&amp;urllink=&amp;afftrack="><img src="http://www.shareasale.com/image/29819/468x60.jpg" alt="Catalyst Theme - WordPress Accelerated" border="0" /></a>
-                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-lightbox-gallery-slider-pro.html">Upgrade To WordPress Slider With Lightbox Pro</a></h3></span>
+                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-lightbox-gallery-slider-pro.html">UPGRADE TO PRO VERSION</a></h3></span>
                 
-      
               <?php
                     $messages=get_option('slider_with_lightbox_messages'); 
                     $type='';
@@ -179,13 +178,12 @@
               ?>      
 
                     <h2>Slider Settings</h2>
-            <br>
             <div id="poststuff">
               <div id="post-body" class="metabox-holder columns-2">
                 <div id="post-body-content">
                   <form method="post" action="" id="scrollersettiings" name="scrollersettiings" >
                     
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Auto Scroll ?</label></h3>
                         <div class="inside">
                              <table>
@@ -200,7 +198,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label >Speed</label></h3>
                         <div class="inside">
                              <table>
@@ -216,7 +214,7 @@
                            
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label >Circular Slider ?</label></h3>
                         <div class="inside">
                              <table>
@@ -232,7 +230,7 @@
                            
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Slider Background color</label></h3>
                         <div class="inside">
                              <table>
@@ -248,7 +246,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Visible</label></h3>
                         <div class="inside">
                              <table>
@@ -265,7 +263,7 @@
                            
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Scroll</label></h3>
                         <div class="inside">
                              <table>
@@ -281,7 +279,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                       <div class="stuffbox" id="namediv" style="min-width:550px;">
+                       <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Pause On Mouse Over ?</label></h3>
                         <div class="inside">
                              <table>
@@ -296,7 +294,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                     <!-- <div class="stuffbox" id="namediv" style="min-width:550px;">
+                     <!-- <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Slider Width</label></h3>
                         <div class="inside">
                              <table>
@@ -312,7 +310,7 @@
                            
                          </div>
                       </div>-->
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Image Height</label></h3>
                         <div class="inside">
                              <table>
@@ -328,7 +326,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Image Width</label></h3>
                         <div class="inside">
                              <table>
@@ -344,7 +342,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label>Physically resize images ?</label></h3>
                         <div class="inside">
                               <table>
@@ -423,29 +421,29 @@
         </div>  
      </div>      
 </div>
-           <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;margin-top:200px"> 
+        <div id="postbox-container-1" class="postbox-container" > 
                          
            <div class="postbox"> 
-              <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
+              <h3 class="hndle"><span></span>All WordPress Themes In One Price</h3> 
               <div class="inside">
-                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="300" height="250"></a></center>
+                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="250" height="250"></a></center>
 
                   <div style="margin:10px 5px">
           
                   </div>
           </div></div>
            <div class="postbox"> 
-              <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
+              <h3 class="hndle"><span></span>Recommended WordPress Hosting</h3> 
               <div class="inside">
-                   <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=202505&amp;u=675922&amp;m=24570&amp;urllink=&amp;afftrack="><img src="http://www.shareasale.com/image/24570/thesis-300x250-1.png" alt="Thesis Theme for WordPress:  Options Galore and a Helpful Support Community" border="0" /></a></center>
+                   <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=531904&u=675922&m=41388&urllink=&afftrack="><img src="http://www.shareasale.com/image/41388/sas_banner_250x250.jpg" alt="WP Engine" border="0"></a></center>
 
                   <div style="margin:10px 5px">
           
                   </div>
           </div></div>
            
-           </div>
-     
+           </div>                                          
+       </div>
     
 <div class="clear"></div></div>  
 <?php
@@ -475,7 +473,62 @@
       
    ?> 
        <div class="wrap">
-           <style type="text/css">
+           <!--[if !IE]><!-->
+            <style type="text/css">
+
+              @media only screen and (max-width: 800px) {
+
+                  /* Force table to not be like tables anymore */
+                  #no-more-tables table, 
+                  #no-more-tables thead, 
+                  #no-more-tables tbody, 
+                  #no-more-tables th, 
+                  #no-more-tables td, 
+                  #no-more-tables tr { 
+                      display: block; 
+
+                  }
+
+                  /* Hide table headers (but not display: none;, for accessibility) */
+                  #no-more-tables thead tr { 
+                      position: absolute;
+                      top: -9999px;
+                      left: -9999px;
+                  }
+
+                  #no-more-tables tr { border: 1px solid #ccc; }
+
+                  #no-more-tables td { 
+                      /* Behave  like a "row" */
+                      border: none;
+                      border-bottom: 1px solid #eee; 
+                      position: relative;
+                      padding-left: 50%; 
+                      white-space: normal;
+                      text-align:left;      
+                  }
+
+                  #no-more-tables td:before { 
+                      /* Now like a table header */
+                      position: absolute;
+                      /* Top/left values mimic padding */
+                      top: 6px;
+                      left: 6px;
+                      width: 45%; 
+                      padding-right: 10px; 
+                      white-space: nowrap;
+                      text-align:left;
+                      font-weight: bold;
+                  }
+
+                  /*
+                  Label the data
+                  */
+                  #no-more-tables td:before { content: attr(data-title); }
+              }
+          </style>
+          <!--<![endif]-->
+            <style type="text/css">
           .pagination {
             clear:both;
             padding:20px 0;
@@ -515,8 +568,7 @@
                 </td>
                 </tr>
                 </table>
-                <a target="_blank" href="http://www.shareasale.com/r.cfm?b=357716&amp;u=675922&amp;m=29819&amp;urllink=&amp;afftrack="><img src="http://www.shareasale.com/image/29819/468x60.jpg" alt="Catalyst Theme - WordPress Accelerated" border="0" /></a>
-                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-lightbox-gallery-slider-pro.html">Upgrade To WordPress Slider With Lightbox Pro</a></h3></span>
+                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-lightbox-gallery-slider-pro.html">UPGRADE TO PRO VERSION</a></h3></span>
              
         <?php 
              
@@ -538,178 +590,167 @@
              update_option('slider_with_lightbox_messages', array());     
         ?>
 
-       <div style="width: 100%;">  
-        <div style="float:left;width:69%;" >
-        <div class="icon32 icon32-posts-post" id="icon-edit"><br></div>
-        <h2>Images <a class="button add-new-h2" href="admin.php?page=thumbnail_slider_with_lightbox_image_management&action=addedit">Add New</a> </h2>
-        <br/>    
-        
-        <form method="POST" action="admin.php?page=thumbnail_slider_with_lightbox_image_management&action=deleteselected"  id="posts-filter">
-              <div class="alignleft actions">
-                <select name="action_upper">
-                    <option selected="selected" value="-1">Bulk Actions</option>
-                    <option value="delete">delete</option>
-                </select>
-                <input type="submit" value="Apply" class="button-secondary action" id="deleteselected" name="deleteselected">
-            </div>
-         <br class="clear">
-        <?php 
-        
-          $settings=get_option('slider_plus_lightbox_settings'); 
-          $visibleImages=$settings['visible'];
-          $query="SELECT * FROM ".$wpdb->prefix."slider_plus_lightbox order by createdon desc";
-          $rows=$wpdb->get_results($query,'ARRAY_A');
-          $rowCount=sizeof($rows);
-          
-        ?>
-        <?php if($rowCount<$visibleImages){ ?>
-            <h4 style="color: green"> Current slider setting - Total visible images <?php echo $visibleImages; ?></h4>
-            <h4 style="color: green">Please add atleast <?php echo $visibleImages; ?> images</h4>
-        <?php } else{
-            echo "<br/>";
-        }?>
-         <table cellspacing="0" class="wp-list-table widefat fixed posts" style="width:500px">
-         <thead>
-         <tr>
-         <th style="width:30px" class="manage-column column-cb check-column" scope="col"><input type="checkbox"></th>
-        <th style="width:150px" class="manage-column column-title sortable desc" scope="col"><span>Title</span></th>
-        <th style="width:100px" class="manage-column column-title sortable desc" scope="col"><span></span></th>
-        <th style="width:100px"  class="manage-column column-author sortable desc" scope="col"><span>Published On</span></th>
-        <th style="width:50px" class="manage-column column-author sortable desc" scope="col"><span>Edit</span></th>
-        <th style="width:50px" class="manage-column column-author sortable desc" scope="col"><span>Delete</span></th>
-        </thead>
+       <div id="poststuff">  
+         <div id="post-body" class="metabox-holder columns-2"> 
+                <div id="post-body-content" >
+                    <div class="icon32 icon32-posts-post" id="icon-edit"><br></div>
+                    <h2>Images <a class="button add-new-h2" href="admin.php?page=thumbnail_slider_with_lightbox_image_management&action=addedit">Add New</a> </h2>
+                    <br/>    
 
-    <tfoot>
-    <tr>
-        <th  style="width:30px" class="manage-column column-cb check-column" scope="col"><input type="checkbox"></th>
-        <th style="width:150px" class="manage-column column-title sortable desc" scope="col"><span>Title</span></th>
-        <th style="width:100px" class="manage-column column-title sortable desc" scope="col"><span></span></th>
-        <th style="width:100px" class="manage-column column-author sortable desc" scope="col"><span>Published On</span></th>
-        <th style="width:50px" class="manage-column column-author sortable desc" scope="col"><span>Edit</span></th>
-        <th style="width:50px" class="manage-column column-author sortable desc" scope="col"><span>Delete</span></th>
-    </tr>
-    </tfoot>
+                    <form method="POST" action="admin.php?page=thumbnail_slider_with_lightbox_image_management&action=deleteselected"  id="posts-filter">
+                        <div class="alignleft actions">
+                            <select name="action_upper">
+                                <option selected="selected" value="-1">Bulk Actions</option>
+                                <option value="delete">delete</option>
+                            </select>
+                            <input type="submit" value="Apply" class="button-secondary action" id="deleteselected" name="deleteselected">
+                        </div>
+                        <br class="clear">
+                        <?php 
 
-    <tbody id="the-list">
-                   <?php
-                     
-                    if(count($rows) > 0){
-                    
-                        global $wp_rewrite;
-                            $rows_per_page = 5;
+                            $settings=get_option('slider_plus_lightbox_settings'); 
+                            $visibleImages=$settings['visible'];
+                            $query="SELECT * FROM ".$wpdb->prefix."slider_plus_lightbox order by createdon desc";
+                            $rows=$wpdb->get_results($query,'ARRAY_A');
+                            $rowCount=sizeof($rows);
+
+                        ?>
+                        <?php if($rowCount<$visibleImages){ ?>
+                            <h4 style="color: green"> Current slider setting - Total visible images <?php echo $visibleImages; ?></h4>
+                            <h4 style="color: green">Please add atleast <?php echo $visibleImages; ?> images</h4>
+                            <?php } else{
+                                echo "<br/>";
+                        }?>
+                         <div id="no-more-tables">
+                         <table cellspacing="0" id="gridTbl" class="table-bordered table-striped table-condensed cf" >
+                            <thead>
+                                <tr>
+                                <th class="manage-column column-cb check-column" scope="col"><input type="checkbox"></th>
+                                <th><span>Title</span></th>
+                                <th><span></span></th>
+                                <th><span>Published On</span></th>
+                                <th><span>Edit</span></th>
+                                <th><span>Delete</span></th>
+                            </thead>
                             
-                            $current = (isset($_GET['paged'])) ? ($_GET['paged']) : 1;
-                            $pagination_args = array(
-                            'base' => @add_query_arg('paged','%#%'),
-                            'format' => '',
-                            'total' => ceil(sizeof($rows)/$rows_per_page),
-                            'current' => $current,
-                            'show_all' => false,
-                            'type' => 'plain',
-                           );
-                            
-                          
-                          $start = ($current - 1) * $rows_per_page;
-                          $end = $start + $rows_per_page;
-                          $end = (sizeof($rows) < $end) ? sizeof($rows) : $end;
-                         
-                                      
-                           for ($i=$start;$i < $end ;++$i ) { 
-                                $row = $rows[$i];
-                               $id=$row['id'];
-                               $editlink="admin.php?page=thumbnail_slider_with_lightbox_image_management&action=addedit&id=$id";
-                               $deletelink="admin.php?page=thumbnail_slider_with_lightbox_image_management&action=delete&id=$id";
-                               $outputimgmain = plugin_dir_url(__FILE__)."imagestoscroll/".$row['image_name']; 
-                               
-                            ?>
-                            <tr valign="top" class="alternate author-self status-publish format-default iedit" id="post-113">
-                                <th style="width:30px" class="check-column" scope="row"><input type="checkbox" value="<?php echo $row['id'] ?>" name="thumbnails[]"></th>
-                                <td style="width:150px" class="post-title page-title column-title"><strong><?php echo stripslashes($row['title']) ?></strong></td>  
-                                <td style="width:50px" class="post-title page-title column-title">
-                                  <img src="<?php echo $outputimgmain;?>" style="width:50px" height="50px"/>
-                                </td>  
-                                <td style="width:100px" class="date column-date"><abbr title="2011/12/22 11:57:24 AM"><?php echo $row['createdon'] ?></td>
-                                <td style="width:50px" class="post-title page-title column-title"><strong><a href='<?php echo $editlink; ?>' title="edit">Edit</a></strong></td>  
-                                <td style="width:50px" class="post-title page-title column-title"><strong><a href='<?php echo $deletelink; ?>' onclick="return confirmDelete();"  title="delete">Delete</a> </strong></td>  
-                           </tr>
-                     <?php 
-                             } 
-                    }
-                   else{
-                       ?>
-                   
-                      <tr valign="top" class="alternate author-self status-publish format-default iedit" id="post-113">
-                                <td colspan="5" class="post-title page-title column-title" align="center"><strong>No Images Found</strong></td>  
-                           </tr>
-                  <?php 
-                   } 
-                 ?>      
-        </tbody>
-  </table>
- <?php
-    if(sizeof($rows)>0){
-     echo "<div class='pagination' style='padding-top:10px'>";
-     echo paginate_links($pagination_args);
-     echo "</div>";
-    }
-  ?>
-    <br/>
-    <div class="alignleft actions">
-        <select name="action">
-            <option selected="selected" value="-1">Bulk Actions</option>
-            <option value="delete">delete</option>
-        </select>
-        <input type="submit" value="Apply" class="button-secondary action" id="deleteselected" name="deleteselected">
-    </div>
+                            <tbody id="the-list">
+                                <?php
 
-    </form>
-        <script type="text/JavaScript">
+                                    if(count($rows) > 0){
 
-            function  confirmDelete(){
-            var agree=confirm("Are you sure you want to delete this image ?");
-            if (agree)
-                 return true ;
-            else
-                 return false;
-        }
-     </script>
+                                        global $wp_rewrite;
+                                        $rows_per_page = 5;
 
-        <br class="clear">
-          <h3>To print this slider into WordPress Post/Page use bellow code</h3>
-    <pre class="printCode">
-      [print_slider_plus_lightbox]
-    </pre>
-    <div class="clear"></div>
-    <h3>To print this slider into WordPress theme/template PHP files use bellow code</h3>
-    <pre class="printCode">
-      echo do_shortcode('[print_slider_plus_lightbox]'); 
-    </pre>
-    <div class="clear"></div>
-        </div>
-         <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;"> 
-           <div class="postbox"> 
-              <h3 class="hndle"><span></span>Best Hosting for WordPress</h3> 
-              <div class="inside">
-                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="300" height="250"></a></center>
+                                        $current = (isset($_GET['paged'])) ? ($_GET['paged']) : 1;
+                                        $pagination_args = array(
+                                            'base' => @add_query_arg('paged','%#%'),
+                                            'format' => '',
+                                            'total' => ceil(sizeof($rows)/$rows_per_page),
+                                            'current' => $current,
+                                            'show_all' => false,
+                                            'type' => 'plain',
+                                        );
 
-                  <div style="margin:10px 5px">
-          
-                  </div>
-          </div></div>
-             <div class="postbox"> 
-              <h3 class="hndle"><span></span>Recommended WordPress SEO Tools</h3> 
-              <div class="inside">
-                   <center><a href="http://www.semrush.com/sem.html?ref=961672083"> <img width="300" height="250" src="http://www.berush.com/images/240x240_semrush_en.png" /></a></center>
 
-                  <div style="margin:10px 5px">
-          
-                  </div>
-          </div></div>
-           
+                                        $start = ($current - 1) * $rows_per_page;
+                                        $end = $start + $rows_per_page;
+                                        $end = (sizeof($rows) < $end) ? sizeof($rows) : $end;
 
-           
-           
-           </div> 
+
+                                        for ($i=$start;$i < $end ;++$i ) { 
+                                            $row = $rows[$i];
+                                            $id=$row['id'];
+                                            $editlink="admin.php?page=thumbnail_slider_with_lightbox_image_management&action=addedit&id=$id";
+                                            $deletelink="admin.php?page=thumbnail_slider_with_lightbox_image_management&action=delete&id=$id";
+                                            $outputimgmain = plugin_dir_url(__FILE__)."imagestoscroll/".$row['image_name']; 
+
+                                        ?>
+                                        <tr valign="top" >
+                                            <td class="alignCenter check-column"   data-title="Select Record" ><input type="checkbox" value="<?php echo $row['id'] ?>" name="thumbnails[]"></td>
+                                            <td   data-title="Title" ><strong><?php echo stripslashes($row['title']) ?></strong></td>  
+                                            <td>
+                                                <img src="<?php echo $outputimgmain;?>" style="width:50px" height="50px"/>
+                                            </td>  
+                                           <td class="alignCenter"   data-title="Published On" ><?php echo $row['createdon'] ?></td>
+                                            <td class="alignCenter"   data-title="Edit Record" ><strong><a href='<?php echo $editlink; ?>' title="edit">Edit</a></strong></td>  
+                                            <td class="alignCenter"   data-title="Delete Record" ><strong><a href='<?php echo $deletelink; ?>' onclick="return confirmDelete();"  title="delete">Delete</a> </strong></td>  
+                                        </tr>
+                                        <?php 
+                                        } 
+                                    }
+                                    else{
+                                    ?>
+
+                                    <tr valign="top" class="" id="">
+                                       <td colspan="6" data-title="No Record" align="center"><strong>No Images Found</strong></td>  
+                                     </tr>
+                                    <?php 
+                                    } 
+                                ?>      
+                            </tbody>
+                        </table>
+                         </div>
+                        <?php
+                            if(sizeof($rows)>0){
+                                echo "<div class='pagination' style='padding-top:10px'>";
+                                echo paginate_links($pagination_args);
+                                echo "</div>";
+                            }
+                        ?>
+                        <br/>
+                        <div class="alignleft actions">
+                            <select name="action">
+                                <option selected="selected" value="-1">Bulk Actions</option>
+                                <option value="delete">delete</option>
+                            </select>
+                            <input type="submit" value="Apply" class="button-secondary action" id="deleteselected" name="deleteselected">
+                        </div>
+
+                    </form>
+                    <script type="text/JavaScript">
+
+                        function  confirmDelete(){
+                            var agree=confirm("Are you sure you want to delete this image ?");
+                            if (agree)
+                                return true ;
+                            else
+                                return false;
+                        }
+                    </script>
+
+                    <br class="clear">
+                    <h3>To print this slider into WordPress Post/Page use bellow code</h3>
+                    <pre class="printCode">[print_slider_plus_lightbox]</pre>
+                    <div class="clear"></div>
+                    <h3>To print this slider into WordPress theme/template PHP files use bellow code</h3>
+                    <pre class="printCode">echo do_shortcode('[print_slider_plus_lightbox]'); </pre>
+                    <div class="clear"></div>
+                </div>
+                <div id="postbox-container-1" class="postbox-container"> 
+                    <div class="postbox"> 
+                        <h3 class="hndle"><span></span>Best Hosting for WordPress</h3> 
+                        <div class="inside">
+                            <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="250" height="250"></a></center>
+
+                            <div style="margin:10px 5px">
+
+                            </div>
+                        </div></div>
+                    <div class="postbox"> 
+                        <h3 class="hndle"><span></span>Recommended WordPress SEO Tools</h3> 
+                        <div class="inside">
+                            <center><a href="http://www.semrush.com/sem.html?ref=961672083"> <img width="250" height="250" src="http://www.berush.com/images/240x240_semrush_en.png" /></a></center>
+
+                            <div style="margin:10px 5px">
+
+                            </div>
+                        </div></div>
+
+
+
+
+                </div> 
+        </div>   
         <div style="clear: both;"></div>
         <?php $url = plugin_dir_url(__FILE__);  ?>
         
@@ -855,8 +896,9 @@
    else{ 
         
   ?>
-     <div style="width: 100%;">  
-        <div style="float:left;width:69%;" >
+     <div id="poststuff"> 
+      <div id="post-body" class="metabox-holder columns-2">
+        <div id="post-body-content">
             <div class="wrap">
           <?php if(isset($_GET['id']) and $_GET['id']>0)
           { 
@@ -894,25 +936,25 @@
                 <div id="post-body-content">
                   <form method="post" action="" id="addimage" name="addimage" enctype="multipart/form-data" >
                 
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label for="link_name">Image Title (<span style="font-size: 11px;font-weight: normal"><?php _e('Used into lightbox'); ?></span>)</label></h3>
                         <div class="inside">
-                            <input type="text" id="imagetitle"  tabindex="1" size="30" name="imagetitle" value="<?php echo $title;?>">
+                            <input type="text" id="imagetitle"   size="30" name="imagetitle" value="<?php echo $title;?>">
                              <div style="clear:both"></div>
                              <div></div>
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label for="link_name">Image Url (<span style="font-size: 11px;font-weight: normal"><?php _e(' On click redirect to this url.Used in lightbox for image title'); ?></span>)</label></h3>
                         <div class="inside">
-                            <input type="text" id="imageurl" class="url"  tabindex="1" size="30" name="imageurl" value="<?php echo $image_link; ?>">
+                            <input type="text" id="imageurl" class="url"   size="30" name="imageurl" value="<?php echo $image_link; ?>">
                              <div style="clear:both"></div>
                              <div></div>
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%">
                          <h3><label for="link_name">Upload Image</label></h3>
                         <div class="inside" id="fileuploaddiv">
                               <?php if($image_name!=""){ ?>
@@ -1020,7 +1062,29 @@
         </div>  
      </div>      
          </div>
-      
+         <div id="postbox-container-1" class="postbox-container" > 
+                         
+           <div class="postbox"> 
+              <h3 class="hndle"><span></span>All WordPress Themes In One Price</h3> 
+              <div class="inside">
+                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="250" height="250"></a></center>
+
+                  <div style="margin:10px 5px">
+          
+                  </div>
+          </div></div>
+           <div class="postbox"> 
+              <h3 class="hndle"><span></span>Recommended WordPress Hosting</h3> 
+              <div class="inside">
+                   <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=531904&u=675922&m=41388&urllink=&afftrack="><img src="http://www.shareasale.com/image/41388/sas_banner_250x250.jpg" alt="WP Engine" border="0"></a></center>
+
+                  <div style="margin:10px 5px">
+          
+                  </div>
+          </div></div>
+           
+           </div>
+       </div>
      
     <?php 
     } 
