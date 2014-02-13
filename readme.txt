@@ -1,9 +1,9 @@
 === WP Image Slider With Lightbox ===
 Contributors:nik00726
-Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
+Donate link:http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:wordpress thumbnail slider,wordpress image lightbox,image thumbnail lightbox,wordpress lightbox gallery,wordpress lightbox image,wordpress lightbox scroller,wordpress lightbox slider,wordpress lightbox slideshow
 Requires at least:3.0
-Tested up to:3.8
+Tested up to:3.8.1
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
@@ -14,9 +14,9 @@ Admin can add,edit and delete slider images.Before add slider to wordPress blog 
 
 Admin can also set link for lightbox image caption title.Image title and link are optional.If not set it will just display image with lightbox.
 
-**Find WordPress wp Image Slider With Lightbox Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-lightbox-gallery-slider-pro.html)**
+**Find WordPress wp Image Slider With Lightbox Pro Plugin(Unlimited Slider+Much more) at [wordPress Slider With Lightbox](http://www.i13websolution.com/wordpress-lightbox-gallery-slider-pro-plugin.html)**
 
-**Live Demo at [Slider With Lightbox](http://my-php-scripts.net/wpdemo/wp-slider-with-lightbox/)**
+**Live Demo at [Slider With Lightbox](http://www.i13websolution.com/wpdemo/wp-slider-with-lightbox/)**
 
 
 **Please rate this plugin if you find it useful**
@@ -74,7 +74,7 @@ to theme or pages/posts.
 
 10. Responsive Admin layout
 
-[Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
+[Get Support](http://www.i13websolution.com/contacts)
 
 
 == Installation ==
