@@ -18,9 +18,7 @@ Admin can also set link for lightbox image caption title.Image title and link ar
 
 **Live Demo at [Slider With Lightbox](http://www.i13websolution.com/wpdemo/wp-slider-with-lightbox/)**
 
-**Find WordPress wp Responsive Image Slider With Lightbox Pro Plugin(Unlimited Slider+Much more) at [wordPress Responsive Slider With Lightbox](http://www.i13websolution.com/wordpress-responsive-slider-with-responsive-lightbox.html)**
-
-**Live Demo at [Responsive Slider With Responsive Lightbox](http://www.i13websolution.com/wpdemo/responsive-slider-with-responsive-lightbox-demo/)**
+**Live Demo  [Responsive Slider With Responsive Lightbox](http://www.i13websolution.com/wpdemo/responsive-slider-with-responsive-lightbox-demo/)**
 
 **Please rate this plugin if you find it useful**
 
