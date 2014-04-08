@@ -14,6 +14,8 @@ Admin can add,edit and delete slider images.Before add slider to wordPress blog 
 
 Admin can also set link for lightbox image caption title.Image title and link are optional.If not set it will just display image with lightbox.
 
+**[wordPress Responsive Slider With Lightbox](http://wordpress.org/plugins/wp-responsive-slider-with-lightbox/)**
+
 **Find WordPress wp Image Slider With Lightbox Pro Plugin(Unlimited Slider+Much more) at [wordPress Slider With Lightbox](http://www.i13websolution.com/wordpress-lightbox-gallery-slider-pro-plugin.html)**
 
 **Live Demo at [Slider With Lightbox](http://www.i13websolution.com/wpdemo/wp-slider-with-lightbox/)**
