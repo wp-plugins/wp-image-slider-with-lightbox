@@ -737,19 +737,7 @@
 
                             </div>
                         </div></div>
-                    <div class="postbox"> 
-                        <h3 class="hndle"><span></span>Recommended WordPress SEO Tools</h3> 
-                        <div class="inside">
-                            <center><a href="http://www.semrush.com/sem.html?ref=961672083"> <img width="250" height="250" src="http://www.berush.com/images/240x240_semrush_en.png" /></a></center>
-
-                            <div style="margin:10px 5px">
-
-                            </div>
-                        </div></div>
-
-
-
-
+                    
                 </div> 
         </div>   
         <div style="clear: both;"></div>

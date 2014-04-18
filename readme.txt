@@ -3,7 +3,7 @@ Contributors:nik00726
 Donate link:http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:wordpress thumbnail slider,wordpress image lightbox,image thumbnail lightbox,wordpress lightbox gallery,wordpress lightbox image,wordpress lightbox scroller,wordpress lightbox slider,wordpress lightbox slideshow
 Requires at least:3.0
-Tested up to:3.8.1
+Tested up to:3.9
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
