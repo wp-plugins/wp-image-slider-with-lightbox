@@ -7,7 +7,7 @@
     Author:I Thirteen Web Solution
     Version:1.0
     */
-
+    error_reporting(0);
     add_action('admin_menu', 'slider_plus_lightbox_add_admin_menu');
     add_action( 'admin_init', 'slider_plus_lightbox_plugin_admin_init' );
     register_activation_hook(__FILE__,'install_slider_plus_lightbox');
