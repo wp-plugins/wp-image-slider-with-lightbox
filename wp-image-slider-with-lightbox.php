@@ -9,7 +9,7 @@
     */
     error_reporting(0);
     add_action('admin_menu', 'slider_plus_lightbox_add_admin_menu');
-    add_action( 'admin_init', 'slider_plus_lightbox_plugin_admin_init' );
+    //add_action( 'admin_init', 'slider_plus_lightbox_plugin_admin_init' );
     register_activation_hook(__FILE__,'install_slider_plus_lightbox');
     add_action('wp_enqueue_scripts', 'slider_plus_lightbox_load_styles_and_js');
     add_shortcode( 'print_slider_plus_lightbox', 'print_slider_plus_lightbox_func' );
@@ -59,11 +59,14 @@
    
     function slider_plus_lightbox_add_admin_menu(){
         
-        add_menu_page( __( 'Thumbnail Slider With Lightbox'), __( 'Thumbnail Slider With Lightbox' ), 'administrator', 'thumbnail_slider_with_lightbox', 'thumbnail_slider_with_lightbox_admin_options_func' );
-        add_submenu_page( 'thumbnail_slider_with_lightbox', __( 'Slider Settings'), __( 'Slider Setting' ),'administrator', 'thumbnail_slider_with_lightbox', 'thumbnail_slider_with_lightbox_admin_options_func' );
-        add_submenu_page( 'thumbnail_slider_with_lightbox', __( 'Manage Images'), __( 'Manage Images'),'administrator', 'thumbnail_slider_with_lightbox_image_management', 'thumbnail_slider_with_lightbox_image_management_func' );
-        add_submenu_page( 'thumbnail_slider_with_lightbox', __( 'Preview Slider'), __( 'Preview Slider'),'administrator', 'thumbnail_slider_with_lightbox_preview', 'thumbnail_slider_with_lightbox_admin_preview_func' );
+        $hook_suffix_s_l_n=add_menu_page( __( 'Thumbnail Slider With Lightbox'), __( 'Thumbnail Slider With Lightbox' ), 'administrator', 'thumbnail_slider_with_lightbox', 'thumbnail_slider_with_lightbox_admin_options_func' );
+        $hook_suffix_s_l_n=add_submenu_page( 'thumbnail_slider_with_lightbox', __( 'Slider Settings'), __( 'Slider Setting' ),'administrator', 'thumbnail_slider_with_lightbox', 'thumbnail_slider_with_lightbox_admin_options_func' );
+        $hook_suffix_s_l_n_1=add_submenu_page( 'thumbnail_slider_with_lightbox', __( 'Manage Images'), __( 'Manage Images'),'administrator', 'thumbnail_slider_with_lightbox_image_management', 'thumbnail_slider_with_lightbox_image_management_func' );
+        $hook_suffix_s_l_n_2=add_submenu_page( 'thumbnail_slider_with_lightbox', __( 'Preview Slider'), __( 'Preview Slider'),'administrator', 'thumbnail_slider_with_lightbox_preview', 'thumbnail_slider_with_lightbox_admin_preview_func' );
         
+        add_action( 'load-' . $hook_suffix_s_l_n , 'slider_plus_lightbox_plugin_admin_init' );
+        add_action( 'load-' . $hook_suffix_s_l_n_1 , 'slider_plus_lightbox_plugin_admin_init' );
+        add_action( 'load-' . $hook_suffix_s_l_n_2 , 'slider_plus_lightbox_plugin_admin_init' );
         
     }
     
