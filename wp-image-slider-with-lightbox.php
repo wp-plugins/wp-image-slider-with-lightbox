@@ -729,7 +729,7 @@
                 </div>
                 <div id="postbox-container-1" class="postbox-container"> 
                     <div class="postbox"> 
-                        <h3 class="hndle"><span></span>Best Hosting for WordPress</h3> 
+                        <h3 class="hndle"><span></span>Best Themes for WordPress</h3> 
                         <div class="inside">
                             <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="250" height="250"></a></center>
 
@@ -774,7 +774,7 @@
                         update_option('slider_with_lightbox_messages', $slider_with_lightbox_messages);
 
                         echo "<script type='text/javascript'> location.href='$location';</script>";
-                         
+                        exit; 
                     }
                     else{
                             $wpcurrentdir=dirname(__FILE__);
@@ -815,6 +815,7 @@
                 
                           
               echo "<script type='text/javascript'> location.href='$location';</script>";
+              exit;
        }
       else{
       
@@ -842,6 +843,7 @@
                     update_option('slider_with_lightbox_messages', $slider_with_lightbox_messages);
 
                     echo "<script type='text/javascript'> location.href='$location';</script>";
+                    exit;
                      
                 }
                 else{
@@ -878,7 +880,8 @@
                      
                      }     
                 echo "<script type='text/javascript'> location.href='$location';</script>";          
-            
+                exit;
+                
        } 
         
     }
@@ -1119,6 +1122,7 @@
                 }  
                           
           echo "<script type='text/javascript'> location.href='$location';</script>";
+          exit;
               
   }  
   else if(strtolower($action)==strtolower('deleteselected')){
@@ -1167,18 +1171,20 @@
                         }  
                               
                        echo "<script type='text/javascript'> location.href='$location';</script>";
-                
+                       exit;
                 
                 }
                 else{
                 
-                    echo "<script type='text/javascript'> location.href='$location';</script>";   
+                    echo "<script type='text/javascript'> location.href='$location';</script>"; 
+                    exit;
                 }
             
            }
            else{
            
-                echo "<script type='text/javascript'> location.href='$location';</script>";      
+                echo "<script type='text/javascript'> location.href='$location';</script>"; 
+                exit;
            }
      
       }      

@@ -3,7 +3,8 @@
 .errMsg{background:#FFCECE ;border: 1px solid #DF8F8F;color:#665252 !important;padding:8px 8px 8px 36px; text-align:left;margin:5px;margin-left: 0px;margin-top: 30px;width:505px !important;}
 .arrowleft{vertical-align: middle !important;}
 .arrowright{vertical-align: middle !important;;}
-.mainTable{background:#ECF5DE}
+.mainTable{background:#ECF5DE;border:none;width:auto}
+.mainTable td{border:none}
 .mainSliderDiv{}
 .sliderUl{}
 .sliderimgLi{list-style-type:none !important;;list-style:none !important;padding:0px !important;margin:0px !important;}
